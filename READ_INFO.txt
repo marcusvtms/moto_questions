@@ -1,13 +1,19 @@
------------Q1--------------
+-----------Q1----------------------------------
 Time complexity: O(n^2)
 Space complexity: O(3n)
 
------------Q2--------------
+-----------Q2----------------------------------
 Time complexity: O(n)
 Space complexity: O(n)
 
------------Q3--------------
+-----------Q3----------------------------------
 Time complexity: O(nm)
 Space complexity: O(nm)
 
+-----------Q5----------------------------------
+Time complexity: O(n); Assuming average 
+complexity of hash implementation constant time
 
+-----------Q7----------------------------------
+Time complexity: O(n^2)
+Space complexity: O(n)

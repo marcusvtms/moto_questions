@@ -9,7 +9,7 @@ def check_partial_permutation(word1, word2):
     if (len(word1) > 3):
         if (word1[0] == word2[0]):
             letters_change = number_letters_changed(word1, word2)
-            if(letters_change < (len(word1)/3.0)):
+            if(letters_change < (len(word1)*2/3.0)):
                 bool_return = True
     else:
         if (word1[0] == word2[0]):
@@ -29,14 +29,11 @@ def number_letters_changed(word1, word2):
 def main():
     word_input1 = 'probably'
     word_input2 = 'porbalby'
-    print('check permutations return ')
+    word_input3 = 'misspellings'
+    word_input4 = 'mpeissngslli'
+    print('check permutations returns ')
     print(check_partial_permutation(word_input1, word_input2))
       
-
-
-    
-    
-
 
 if __name__ == '__main__':
     main()

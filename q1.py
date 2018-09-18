@@ -15,9 +15,6 @@ def replace_spaces(array_chars, array_size):
 #shifting related to possible previous space replacement
             shift_acumulator += 2
             space_index += 1
-                
-    print('printando space indexes list\n')
-    print(spaces_indexes)
     
     
     for i in range(0, space_index):
@@ -49,7 +46,7 @@ def main():
         array_input[i] = char_input[i]
         
     replace_spaces(array_input, char_input_size)
-    print(''.join(array_input))    
+    print('\n\n'+''.join(array_input)+'\n\n')    
 
 
     
